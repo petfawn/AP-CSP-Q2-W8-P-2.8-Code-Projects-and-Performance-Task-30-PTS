@@ -1,0 +1,16 @@
+# this script lets u input name and display
+
+# Function to greet the user
+def greet_user():
+    """
+    this function prompts the user to enter their name,
+    then displays a greeting with the provided name.
+    """
+    # Get user input for their name
+    user_name = input("Enter your name: ")
+    
+    # Display a greeting with the provided name
+    print(f"Hello, {user_name}!")
+
+# Call the function to greet the user
+greet_user()
